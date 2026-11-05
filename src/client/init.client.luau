@@ -1,1 +1,0 @@
--- Client scripts will go here as we build the game.
