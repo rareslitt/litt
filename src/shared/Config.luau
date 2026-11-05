@@ -1,0 +1,26 @@
+-- Economy and timing values for this session-only playtest.
+return {
+	BaseCount = 6,
+	SlotsPerBase = 6,
+	StartingCash = 250,
+	HatchSeconds = 12,
+	LockSeconds = 30,
+	LockCooldown = 60,
+	WalkSpeed = 20,
+	CarrySpeed = 13,
+	SpeedStep = 3,
+	MaxSpeedLevel = 5,
+	SpeedCosts = { 200, 450, 900, 1800, 3600 },
+	BeltSpawnSeconds = 5,
+	BeltTravelSeconds = 55,
+	BeltMaxEggs = 12,
+	PromptDistance = 12,
+	SellFraction = 0.5,
+	Eggs = {
+		{ id = "meadow", name = "Meadow Egg", pet = "Sprout Bunny", rarity = "COMMON", cost = 100, income = 5, weight = 55, color = { 126, 225, 154 } },
+		{ id = "ocean", name = "Ocean Egg", pet = "Bubble Axolotl", rarity = "RARE", cost = 350, income = 18, weight = 26, color = { 99, 202, 255 } },
+		{ id = "cosmic", name = "Cosmic Egg", pet = "Moon Fox", rarity = "EPIC", cost = 1000, income = 55, weight = 13, color = { 188, 133, 255 } },
+		{ id = "sun", name = "Sunburst Egg", pet = "Golden Phoenix", rarity = "LEGENDARY", cost = 3000, income = 180, weight = 5, color = { 255, 200, 65 } },
+		{ id = "ember", name = "Ember Egg", pet = "Ember Dragon", rarity = "MYTHIC", cost = 10000, income = 650, weight = 1, color = { 255, 112, 136 } },
+	},
+}
